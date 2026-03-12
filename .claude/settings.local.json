@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__mcp-server-motherduck__list_tables",
+      "mcp__mcp-server-motherduck__execute_query"
+    ]
+  }
+}
