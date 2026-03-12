@@ -1,0 +1,59 @@
+[
+    {
+        "key": "ctrl+shift+f10",
+        "command": "jupyter.notebookeditor.restartkernel"
+    },
+    {
+        "key": "ctrl+shift+enter",
+        "command": "workbench.action.terminal.runSelectedText",
+        "when": "editorTextFocus && editorLangId == sql"
+    },
+    {
+        "key": "Ctrl+Shift+m",
+        "command": "type",
+        "args": {
+            "text": " |>"
+        },
+        "when": "editorTextFocus && editorLangId == r"
+    },
+    {
+        "key": "Alt+-",
+        "command": "type",
+        "args": {
+            "text": " <- "
+        },
+        "when": "editorTextFocus && editorLangId == r"
+    },
+    {
+        "key": "Ctrl+Shift+m",
+        "command": "type",
+        "args": {
+            "text": " |>"
+        },
+        "when": "editorTextFocus && editorLangId == rmd"
+    },
+    {
+        "key": "Alt+-",
+        "command": "type",
+        "args": {
+            "text": " <- "
+        },
+        "when": "editorTextFocus && editorLangId == rmd"
+    },
+    {
+        "key": "Ctrl+Shift+m",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": " |>"
+        },
+        "when": "terminalFocus"
+    },
+    {
+        "key": "Alt+-",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": " <- "
+        },
+        "when": "terminalFocus"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "tamasfe.even-better-toml",
+        "aaron-bond.better-comments",
+        "christian-kohler.path-intellisense",
+        "ms-toolsai.jupyter",
+    ]
+}
