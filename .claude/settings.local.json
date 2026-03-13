@@ -2,7 +2,12 @@
   "permissions": {
     "allow": [
       "mcp__mcp-server-motherduck__list_tables",
-      "mcp__mcp-server-motherduck__execute_query"
+      "mcp__mcp-server-motherduck__execute_query",
+      "mcp__mcp-server-motherduck__list_columns",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(mkdir -p ~/.config/git && echo '# Normalise line endings for all text files\n* text=auto' > ~/.config/git/attributes)",
+      "Bash(git config:*)"
     ]
   }
 }
